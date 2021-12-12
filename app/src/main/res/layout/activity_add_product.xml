@@ -18,7 +18,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="THÊM SẢN PHẨM"
+                android:text="@string/them_san_pham"
                 android:gravity="center"
                 android:textColor="@color/green"
                 android:textStyle="bold"
@@ -28,7 +28,7 @@
                 android:id="@+id/edtProductNumber"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Mã sản phẩm"
+                android:hint="@string/ma_san_pham"
                 android:backgroundTint="@color/green"
                 android:textSize="16sp"
                 android:layout_marginTop="10dp"/>
@@ -36,7 +36,7 @@
                 android:id="@+id/edtProductName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Tên sản phẩm"
+                android:hint="@string/ten_san_pham"
                 android:backgroundTint="@color/green"
                 android:textSize="16sp"
                 android:layout_marginTop="10dp"/>
@@ -44,7 +44,7 @@
                 android:id="@+id/edtProduction"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Hãng sản xuất"
+                android:hint="@string/hang_san_xuat"
                 android:backgroundTint="@color/green"
                 android:textSize="16sp"
                 android:layout_marginTop="10dp"/>
@@ -52,7 +52,7 @@
                 android:id="@+id/edtProductPrice"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Giá bán"
+                android:hint="@string/gia_ban"
                 android:backgroundTint="@color/green"
                 android:textSize="16sp"
                 android:layout_marginTop="10dp"/>
@@ -63,7 +63,7 @@
                 android:padding="10dp"
                 android:layout_gravity="end"
                 android:drawableStart="@drawable/ic_baseline_camera_alt_24"
-                android:text="Chọn ảnh"
+                android:text="@string/chon_anh"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/background_btn"
                 android:backgroundTint="@color/green"
@@ -85,13 +85,13 @@
                     android:id="@+id/btnSaveBook"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Lưu sách"
+                    android:text="@string/luu_sach"
                     android:backgroundTint="@color/yellow"/>
                 <Button
                     android:id="@+id/btnCancelBook"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hủy bỏ"
+                    android:text="@string/huy_bo"
                     android:backgroundTint="@color/yellow" android:layout_marginStart="20dp"/>
             </LinearLayout>
         </LinearLayout>

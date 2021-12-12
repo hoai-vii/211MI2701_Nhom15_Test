@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">211MI2701_Nhom15</string>
+    <string name="chinh_sua_san_pham">CHỈNH SỬA SẢN PHẨM</string>
+    <string name="ma_san_pham">Mã sản phẩm</string>
+    <string name="ten_san_pham">Tên sản phẩm</string>
+    <string name="hang_san_xuat">Hãng sản xuất</string>
+    <string name="gia_ban">Giá bán</string>
+    <string name="chon_anh">Chọn ảnh</string>
+    <string name="huy_bo">Hủy bỏ</string>
+    <string name="ok">OK</string>
+    <string name="them_san_pham">THÊM SẢN PHẨM</string>
+    <string name="luu_sach">Lưu sách</string>
+    <string name="huy_bo">Hủy bỏ</string>
 </resources>
