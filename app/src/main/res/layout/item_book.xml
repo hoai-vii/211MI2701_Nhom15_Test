@@ -17,7 +17,7 @@
             android:orientation="horizontal" />
 
         <ImageView
-            android:id="@+id/imvSach"
+            android:id="@+id/imvProduct"
             android:layout_width="98dp"
             android:layout_height="135dp"
             android:layout_alignParentTop="true"
@@ -28,14 +28,14 @@
             android:src="" />
 
         <LinearLayout
-            android:id="@+id/lvSachInfo"
+            android:id="@+id/lvProduct"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignTop="@+id/lnOrderItem"
             android:layout_alignBottom="@+id/lnOrderItem"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:layout_toEndOf="@+id/imvSach"
+            android:layout_toEndOf="@+id/imvProduct"
             android:orientation="vertical">
 
             <TextView
