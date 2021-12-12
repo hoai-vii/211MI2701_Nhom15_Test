@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -33,7 +34,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openAddScreen() {
-        Dialog dialog = new Dialog(this);
-        dialog.show();
+        Intent intent = new Intent(MainActivity.this, AddProduct.class);
+        startActivity(intent);
     }
+
+
 }
