@@ -25,7 +25,7 @@ public class MyDatabase extends SQLiteOpenHelper {
     public static final String COL_IMAGE = "Book_Image";
 
 
-    public MyDatabase(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
+    public MyDatabase(@Nullable Context context) {
         super(context, DB_NAME, null, DB_VERSION);
     }
 
@@ -58,7 +58,7 @@ public class MyDatabase extends SQLiteOpenHelper {
         return outputStream.toByteArray();
     }
 
-    public void insertData(String name, String author, int page, float eprice, float price, String publisher, String datetime, String LoaiBia, String size, String category, byte[] image, String summary) {
+    public void insertData(String name, String publisher, float price, byte[] image) {
 
         SQLiteDatabase db = getWritableDatabase();
         ContentValues cv = new ContentValues();
